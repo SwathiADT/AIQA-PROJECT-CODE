@@ -1,0 +1,96 @@
+[
+
+    {
+  
+      "workSpaceId": 1,
+  
+      "workSpaceName": "Work Space 1",
+  
+      "imageUrl": "assets/images/leaf_rake.png"
+  
+    },
+    {
+  
+        "workSpaceId": 2,
+    
+        "workSpaceName": "Work Space 2",
+    
+        "imageurl": ""
+    
+      },
+      {
+  
+        "workSpaceId": 3,
+    
+        "workSpaceName": "Work Space 3",
+    
+        "imageurl": ""
+    
+      },
+      {
+  
+        "workSpaceId": 4,
+    
+        "workSpaceName": "Work Space 4",
+    
+        "imageurl": ""
+    
+      },
+      {
+  
+        "workSpaceId": 5,
+    
+        "workSpaceName": "Work Space 5",
+    
+        "imageurl": ""
+    
+      },
+      {
+  
+        "workSpaceId": 6,
+    
+        "workSpaceName": "Work Space 6",
+    
+        "imageUrl": "assets/images/leaf_rake.png"
+    
+      },
+      {
+    
+          "workSpaceId": 7,
+      
+          "workSpaceName": "Work Space 7",
+      
+          "imageurl": ""
+      
+        },
+        {
+    
+          "workSpaceId": 8,
+      
+          "workSpaceName": "Work Space 8",
+      
+          "imageurl": ""
+      
+        },
+        {
+    
+          "workSpaceId": 9,
+      
+          "workSpaceName": "Work Space 9",
+      
+          "imageurl": ""
+      
+        },
+        {
+    
+            "workSpaceId": 10,
+        
+            "workSpaceName": "Work Space 10",
+        
+            "imageurl": ""
+        
+          }
+  
+  
+    
+  ]

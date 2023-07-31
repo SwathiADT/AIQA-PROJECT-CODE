@@ -1,0 +1,75 @@
+<section class="vh-100 bg-image"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Create Test Plan</h2>
+
+              <form [formGroup]="cTestPlanForm" (ngSubmit)="save()">
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="planName" class="form-control form-control-lg" formControlName="planName"/>
+                  <label class="form-label" for="planName">Test Plan Name*</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="release" class="form-control form-control-lg" formControlName="release"/>
+                  <label class="form-label" for="release">Select Release*</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  
+                  
+               
+                  <select class="form-label" name="cars" id="cars" class="form-control form-control-lg" formControlName="sprint" > 
+                    <option>--Select--</option>
+                    <option value="Sprint1">Sprint1</option>
+                    <option value="Sprint2">Sprint2</option>
+                    <option value="Sprint3">Sprint3</option>
+                    <option value="Sprint4">Sprint4</option>
+                  </select>
+                  <label class="form-label" for="sprint">Select Sprint*</label>
+                        </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="team" class="form-control form-control-lg" formControlName="team"/>
+                  <label class="form-label" for="team">Team*</label>
+                </div>
+                <div class="form-outline mb-4">
+                  <input type="text" id="feature" class="form-control form-control-lg" formControlName="feature"/>
+                  <label class="form-label" for="feature">Feature*</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="description" class="form-control form-control-lg" formControlName="description"/>
+                  <label class="form-label" for="description">Description</label>
+                </div>
+
+                        
+
+             
+                
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Save</button>
+                    <button type="button"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" routerLink='/testCase'>next</button>
+                    
+                </div>
+                
+
+             
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
